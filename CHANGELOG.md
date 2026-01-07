@@ -98,6 +98,10 @@ No changes were made since the release candidate.
 -   Add E2E tests to IBC precompile
 -   Add E2E tests to wasmd precompile
 
+### Fixed
+
+- Add validation for lookbackPeriod in oracle precompile to prevent nil pointer panic, negative values, and uint64 overflow
+
 ## v2.0.0 -- 2025-06-18
 
 ### Added
